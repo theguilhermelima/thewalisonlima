@@ -24,10 +24,34 @@
         <!-- Manifest -->
         <link rel="manifest" href="./manifest.json" />
 
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="./styles/global.css" />
+        <link rel="stylesheet" href="./styles/landing.css">
+        <link rel="stylesheet" href="./styles/body.css">
     </head>
 
     <body>
+        <div class="landing">
+            <hgroup>
+                <h3>guilherme lima</h3>
+                <p>Engenheiro de Software</p>
+            </hgroup>
+   
+            <svg id="mouse-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="48" height="48">
+                <!-- Grupo principal com as propriedades visuais manipuláveis -->
+                <g fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+                    
+                    <!-- Corpo do Mouse -->
+                    <rect x="64" y="46" width="72" height="108" rx="36" />
+                        
+                    <!-- Scroll / Roda do Mouse -->
+                    <line x1="100" y1="69" x2="100" y2="85" />
+                        
+                    <!-- Seta Inferior -->
+                    <path d="M 86 186 L 100 200 L 114 186" />
+                        
+                </g>
+            </svg>
+        </div>
         <!-- Profile Section -->
         <div class="container">
             <div class="profile-header">
@@ -208,7 +232,7 @@
             <!-- About Content -->
             <div class="tab-content active" id="about">
                 <p class="bio">
-                    Estudante de Engenharia de Software na Estácio, apaixonado
+                    Engenheiro de Software apaixonado
                     por resolver problemas e criar soluções eficientes. Sou uma
                     pessoa flexível com habilidades técnicas, sempre buscando
                     aproveitar ao máximo as ferramentas disponíveis para
