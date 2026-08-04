@@ -2,6 +2,7 @@
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.5)), url('../images/perfil.png') no-repeat;
     background-size: cover;
+    background-position: center;
 
     overflow:hidden;
 
