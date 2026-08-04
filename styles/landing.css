@@ -8,7 +8,7 @@
     min-width: 320px;
     width: 100%;
 
-    height: 100vh;
+    height: 100svh;
 
     display: flex;
     justify-content: center;
@@ -18,6 +18,11 @@
 .landing hgroup {
     text-align: center;
     color: #FFFFFF;
+}
+
+.landing hgroup h3 {
+    text-transform: uppercase;
+    font-size: 34px;
 }
 
 .landing hgroup h3 {
