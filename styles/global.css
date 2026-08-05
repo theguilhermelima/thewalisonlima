@@ -19,5 +19,7 @@
 body {
     font-family: Roboto, sans-serif;
     background: var(--bg-primary);
+    width: 100vw;
+    scroll-behavior: smooth;
 }
 

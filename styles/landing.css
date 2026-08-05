@@ -19,16 +19,19 @@
 .landing hgroup {
     text-align: center;
     color: #FFFFFF;
+    letter-spacing: 1px;
 }
 
 .landing hgroup h3 {
     text-transform: uppercase;
-    font-size: 34px;
-}
-
-.landing hgroup h3 {
-    text-transform: uppercase;
+    font-weight: 600;
     font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.landing hgroup p {
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
 .landing #mouse-icon {
@@ -46,6 +49,17 @@
         transform: translateY(0);
     }
     100% {
-        transform: translateY(5px);
+        transform: translateY(10px);
     }
+}
+
+#maquina::after {
+  content: "|";
+  animation: piscar 0.8s infinite;
+}
+
+@keyframes piscar {
+  50% {
+    opacity: 0;
+  }
 }

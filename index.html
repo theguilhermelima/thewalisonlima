@@ -32,38 +32,46 @@
     <body>
         <div class="landing">
             <hgroup>
+                <p style="
+                    text-align: left;
+                    font-size: 18px;
+                    letter-spacing: normal;
+                ">Olá, eu sou</p>
                 <h3>guilherme lima</h3>
-                <p>Engenheiro de Software</p>
+                <p id="maquina"></p>
             </hgroup>
 
-            <svg
-                id="mouse-icon"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 200 200"
-                width="48"
-                height="48"
-            >
-                <!-- Grupo principal com as propriedades visuais manipuláveis -->
-                <g
-                    fill="none"
-                    stroke="#ffffff"
-                    stroke-width="8"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                >
-                    <!-- Corpo do Mouse -->
-                    <rect x="64" y="46" width="72" height="108" rx="36" />
+            <a href="#destaque" style="padding: 8px; display: inline-block; cursor: pointer;">
+                
+                    <svg
+                        id="mouse-icon"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 200 200"
+                        width="48"
+                        height="48"
+                    >
+                    <!-- Grupo principal com as propriedades visuais manipuláveis -->
+                    <g
+                        fill="none"
+                        stroke="#ffffff"
+                        stroke-width="8"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    >
+                        <!-- Corpo do Mouse -->
+                        <rect x="64" y="46" width="72" height="108" rx="36" />
 
-                    <!-- Scroll / Roda do Mouse -->
-                    <line x1="100" y1="69" x2="100" y2="85" />
+                        <!-- Scroll / Roda do Mouse -->
+                        <line x1="100" y1="69" x2="100" y2="85" />
 
-                    <!-- Seta Inferior -->
-                    <path d="M 86 186 L 100 200 L 114 186" />
-                </g>
-            </svg>
+                        <!-- Seta Inferior -->
+                        <path d="M 86 186 L 100 200 L 114 186" />
+                    </g>
+                </svg>
+            </a>
         </div>
         <!-- Profile Section -->
-        <div class="container">
+        <div class="container" id="destaque">
             <div class="profile-header">
                 <img
                     src="./images/perfil.png"
@@ -327,5 +335,6 @@
         <script src="scripts/projects-loader.js"></script>
         <script src="scripts/details-loader.js"></script>
         <script src="scripts/tabs.js"></script>
+        <script src="./scripts/typewrite.js"></script>
     </body>
 </html>
